@@ -1,0 +1,126 @@
+.popup-newsletter {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;	
+	display: none;
+	
+}
+
+
+.popup-newsletter:before{
+	position: absolute;
+	content: "";
+	background-color: #000;	
+	opacity: 0.75;
+    -moz-opacity: 0.75;
+    -o-opacity: 0.75;
+    -webkit-opacity: 0.75;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+}
+.popup-newsletter > .newsletter-content {
+    background: #f9f9f9 none repeat scroll 0 0;
+    display: block;
+    height: 302px;
+    padding: 30px 60px;
+    position: absolute;
+    width: 658px;
+    text-align: left;
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+#newclose{
+	background-color: #222222;
+    border: 1px solid #fff;
+
+    color: #fff;
+    cursor: pointer;
+    height: 35px;
+    line-height: 35px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 35px;
+    z-index: 8040;
+    text-align: center;
+    font-weight: bold;
+}
+#newclose:hover{
+    background: #60BA62;
+}
+.newsletter-content-inside .newsletter-heading p{
+    margin-bottom: 0;
+    color: #333333;
+    font-size: 20px;
+    font-weight: 500;
+}
+.newsletter-content-inside .newsletter-heading h3{
+    font-size: 30px;
+    margin: 10px 0 20px;
+}
+.newsletter-content-inside .newlestter-description {
+    margin-bottom: 20px;
+}
+.newsletter-content-inside {
+    text-align: center;
+}
+.popup-form{
+    position: relative;
+}
+.popup-form .email {
+    display: inline-block;
+    width: 300px;
+}
+.popup-form .btn {
+    width: 100px;
+    padding: 0;
+    height: 40px;
+    background: #60BA62;
+    color: #fff;
+}
+.popup-form .btn:hover{
+    background: #023c63;
+}
+.popup-form .valid .alert{
+    margin-top: 10px;
+    font-size: 13px;
+}
+.social-popup{
+    display: inline-block;
+    margin-top: 20px;
+    float: left;
+    clear: both;
+}
+.social-popup .list-inline {
+    display: inline-block;
+    margin: 0;
+}
+.social-popup .list-inline li{
+    padding-left: 1px;
+    padding-right: 1px;
+    line-height: normal;
+}
+.social-popup .list-inline li a{
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 100%;
+    -moz-border-radius: 100%;
+    -o-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+}

@@ -1,0 +1,62 @@
+.bring-verticalmenu{
+	position: relative;	
+}
+
+
+.bring-verticalmenu .dropdown-menu > .dropdown-menu-inner {
+  padding: 10px;
+}
+.bring-verticalmenu .mega-group .caret {
+  display: none;
+}
+.bring-verticalmenu .mega-group > .dropdown-toggle {
+  display: block;
+  font-weight: bold;
+  padding: 6px 5px;
+  text-transform: uppercase;
+  border-bottom: solid 1px #E5E5E5;
+}
+.bring-verticalmenu .mega-group .dropdown-mega .mega-col-inner > ul > li a {
+  margin-left: 6px;
+}
+.bring-verticalmenu .mega-col .mega-col-inner > ul {
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
+}
+.bring-verticalmenu .mega-col .mega-col-inner > ul > li {
+  list-style: none;
+  margin-left: 0;
+}
+.bring-verticalmenu .mega-col .mega-col-inner > ul > li > a {
+  clear: both;
+  color: #555555;
+  display: block;
+  line-height: 20px;
+}
+.bring-verticalmenu .dropdown-submenu:hover .dropdown-menu {
+  display: block;
+}
+.bring-verticalmenu .dropdown-submenu > .dropdown-menu {
+  border-radius: 0 6px 6px 6px;
+  left: 100%;
+  margin-left: -6px;
+  margin-top: -6px;
+  top: 0;
+}
+
+
+
+
+.widget-product-list img{
+	width: 60px;
+	height: 60px;
+	float: left;
+	margin-right: 12px;
+}
+
+.widget-banner .w-banner{
+ margin: 6px 10px; 
+	float: left;
+} 
+
